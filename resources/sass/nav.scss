@@ -1,0 +1,24 @@
+.active {
+    @apply bg-pink-300 hover:bg-opacity-25;
+}
+
+.mapsvg path{
+    fill: #F8CD4F;
+    stroke: #FB4A9B;
+    stroke-width: 2px;
+}
+
+.mapsvg path:hover{
+    fill: #F51663;
+    stroke: #F51663;
+}
+
+.maplabels1{
+    fill: #ffffff;
+}
+
+text:hover{
+    font-weight: bold;
+    fill: #F51663;
+    stroke: #F51663;;
+}

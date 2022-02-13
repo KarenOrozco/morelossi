@@ -1,0 +1,3 @@
+<div {{ $attributes->merge(['type' => 'button', 'class' => 'inline-flex items-center px-4 py-2 bg-orange-500 hover:bg-orange-900 border rounded-md font-semibold text-xs text-white tracking-widest shadow-sm focus:outline-none focus:border-orange-300 focus:ring focus:ring-orange-200 active:text-white active:bg-orange-50 disabled:opacity-25 transition']) }}>
+    <i class="fa fa-hourglass" ></i>
+</div>

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h1 {
+        @apply text-4xl leading-8 font-bold;
+    }
+    
+    h2 {
+        @apply text-base text-pink-600 font-semibold tracking-wide;
+    }
+
+    select {
+        @apply border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm;
+    }
+    
+    .container {
+        @apply max-w-7xl mx-auto px-2;
+    }
+    
+    .gradiente { 
+        background-image: linear-gradient(
+              rgba(25, 209, 231, 0.5),
+              rgba(243, 17, 224, 0.5)
+            );
+    }
+
+    .cursor-not-allowed { 
+        cursor: not-allowed; 
+    }
+
+
+    font-family: 'Merienda', cursive;
+    .font-family-karla { font-family: karla; }
+    .bg-sidebar { @apply bg-pink-500; }
+    .cta-btn { @apply bg-pink-500;  }
+    .upgrade-btn { @apply bg-pink-700; }
+    .upgrade-btn:hover { @apply bg-pink-900; }
+    .active-nav-link { @apply bg-pink-700; }
+    .nav-item:hover { @apply bg-pink-700; }
+    .account-link:hover { @apply bg-pink-400; } 
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    @media(min-width:640px) {
+        .container{
+            @apply px-6;
+        }
+    }
+    
+    @media(min-width:1024px) {
+        .container{
+            @apply px-8;
+        }
+    }
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------------------------- */
+/* bg-indigo-500 #3d68ff
+bg-indigo-700 #1947ee
+bg-indigo-900 #0038fd
+bg-indigo-400 #3d68ff */
+
+
+/* .bg-sidebar { background: #3d68ff; }
+.cta-btn { color: #3d68ff; }
+.upgrade-btn { background: #1947ee; }
+.upgrade-btn:hover { background: #0038fd; }
+.active-nav-link { background: #1947ee; }
+.nav-item:hover { background: #1947ee; }
+.account-link:hover { background: #3d68ff; } */
+
